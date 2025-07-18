@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DocOnCall"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Patient.Appointment.Appointment_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Appointment.Date.Time_Availability"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Appointment.DoctorManageAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Appointment.Time.Manage_Availability"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.Appointment.PatientManageAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.List_Doctor.Doctor_Information"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.Schedule.Patient_Schedule"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Schedule.Doctor_Schedule"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.List_Doctor.Patient_List_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.HealthCheck.Doctor_HealthCheck"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.Dashboard.Patient_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Dashboard.Doctor_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.Profile.Edit_Patient_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Profile.Edit_Doctor_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.HealthCheck.Patient_HealthCheck"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.Profile.Patient_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Profile.Doctor_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.ChangePassword_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.SignUp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.Login_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

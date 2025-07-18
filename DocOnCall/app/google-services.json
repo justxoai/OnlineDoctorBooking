@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395742912868",
+    "project_id": "doconcall-67d5a",
+    "storage_bucket": "doconcall-67d5a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395742912868:android:d0e756b263558d67fb9a71",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.doconcall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMtqISj8MlFKBg_1lGw1ilRCvI00zw9Zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
