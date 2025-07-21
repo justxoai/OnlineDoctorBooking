@@ -1,4 +1,4 @@
-# # 🏥 Online Doctor Booking Mobile Application
+## 🏥 Online Doctor Booking Mobile Application
 
 A mobile healthcare solution designed for hospitals to enable easy and accessible digital consultations and appointment booking — especially catering to elderly and disabled patients.
 
